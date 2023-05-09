@@ -23,6 +23,8 @@
     <body class="antialiased">
         <main>
             <h1>Hello World</h1>
+            <h3>Il mio nome è {{$nome}} {{$cognome}}</h3>
+            <h3>Sono nato il {{$compleanno['giorno']}} {{$compleanno['mese']}} {{$compleanno['anno']}}</h3>
         </main>
     </body>
 </html>

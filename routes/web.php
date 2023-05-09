@@ -14,5 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $name = "Nicolò";
+    $surname = "Fossati";
+    $birthday = [
+        'giorno' => "24",
+        'mese' => "Luglio",
+        'anno' => "2001"
+    ];
+
+    $data = [
+        'nome' => $name,
+        'cognome' => $surname,
+        'compleanno' => $birthday
+    ];
+
+    return view('home', $data);
 });
