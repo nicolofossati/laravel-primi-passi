@@ -32,7 +32,7 @@ Route::get('/', function () {
     ];
 
     return view('home', $data);
-});
+})->name('home');
 
 Route::get('/about-us', function () {
     $data = [
@@ -40,18 +40,18 @@ Route::get('/about-us', function () {
     ];
 
     return view('about-us', $data);
-});
+})->name('about-us');
 
 Route::get('/contact-us', function () {
     $data = [
         'page' => 'CONTACT-US'
     ];
     return view('contact-us', $data);
-});
+})->name('contact-us');
 
 Route::get('/news', function () {
     $data = [
         'page' => 'NEWS'
     ];
     return view('news', $data);
-});
+})->name('news');

@@ -25,10 +25,10 @@
     <body class="antialiased">
         <header>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about-us">About Us</a></li>
-                <li><a href="/contact-us">Contact Us</a></li>
-                <li><a href="/news">News</a></li>
+                <li><a href="{{route('home')}}">Home</a></li>
+                <li><a href="{{route('about-us')}}">About Us</a></li>
+                <li><a href="{{route('contact-us')}}">Contact Us</a></li>
+                <li><a href="{{route('news')}}">News</a></li>
             </ul>
         </header>
         <main>
