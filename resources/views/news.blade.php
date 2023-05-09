@@ -32,10 +32,7 @@
             </ul>
         </header>
         <main>
-            <h1>Siamo in {{$page}}</h1>
-            <h1>Hello World</h1>
-            <h3>Il mio nome è {{$nome}} {{$cognome}}</h3>
-            <h3>Sono nato il {{$compleanno['giorno']}} {{$compleanno['mese']}} {{$compleanno['anno']}}</h3>
+            <h1>Siamo in: {{$page}}</h1>
         </main>
     </body>
 </html>
